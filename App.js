@@ -13,6 +13,7 @@ import TestPsicologico from './src/screens/TestPsicologico';
 import Staff from './src/screens/Staff';
 import Testimonio from './src/screens/Testimonio';
 import Suscripcion from './src/screens/Suscripcion';
+import MediosDePago from './src/screens/MediosDePago';
 import Configuracion from './src/screens/Configuracion';
 
 const Stack = createStackNavigator();
@@ -38,6 +39,7 @@ function AppDrawer({ setIsLoggedIn }) {
       <Drawer.Screen name="Staff" component={HomeScreen} />
       <Drawer.Screen name="Testimonio" component={HomeScreen} />
       <Drawer.Screen name="Suscribete" component={Suscripcion} />
+      <Drawer.Screen name="MediosDePago" component={MediosDePago} />
       <Drawer.Screen name="Configuracion" component={HomeScreen} />
     </Drawer.Navigator>
   );
