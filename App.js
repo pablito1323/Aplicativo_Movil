@@ -35,7 +35,7 @@ function AppDrawer({ setIsLoggedIn }) {
       <Drawer.Screen name="Home" component={HomeScreen} />
       <Drawer.Screen name="Actividades" component={HomeScreen} />
       <Drawer.Screen name="Test Psicologico" component={TestPsicologico} />
-      <Drawer.Screen name="Staff" component={HomeScreen} />
+      <Drawer.Screen name="Staff" component={Staff} />
       <Drawer.Screen name="Testimonio" component={HomeScreen} />
       <Drawer.Screen name="Suscribete" component={Suscripcion} />
       <Drawer.Screen name="Configuracion" component={HomeScreen} />
