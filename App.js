@@ -8,7 +8,12 @@ import RegisterScreen from './src/screens/RegisterScreen';
 import HomeScreen from './src/screens/HomeScreen';
 import CustomDrawerContent from './src/components/CustomDrawerContent';
 import { styles } from './src/styles/styles';
+import Actividades from './src/screens/Actividades';
+import TestPsicologico from './src/screens/TestPsicologico';
+import Staff from './src/screens/Staff';
+import Testimonio from './src/screens/Testimonio';
 import Suscripcion from './src/screens/Suscripcion';
+import Configuracion from './src/screens/Configuracion';
 
 const Stack = createStackNavigator();
 const Drawer = createDrawerNavigator();
@@ -28,7 +33,12 @@ function AppDrawer({ setIsLoggedIn }) {
   return (
     <Drawer.Navigator drawerContent={props => <CustomDrawerContent {...props} setIsLoggedIn={setIsLoggedIn} />}>
       <Drawer.Screen name="Home" component={HomeScreen} />
-      <Drawer.Screen name="Suscripcion" component={Suscripcion} />
+      <Drawer.Screen name="Actividades" component={Actividades} />
+      <Drawer.Screen name="Test Psicologico" component={TestPsicologico} />
+      <Drawer.Screen name="Staff" component={Staff} />
+      <Drawer.Screen name="Testimonio" component={Testimonio} />
+      <Drawer.Screen name="Suscribete" component={Suscripcion} />
+      <Drawer.Screen name="Configuracion" component={Configuracion} />
     </Drawer.Navigator>
   );
 }
