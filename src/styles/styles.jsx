@@ -75,5 +75,54 @@ export const styles = StyleSheet.create({
       height: 100,
       borderRadius: 10,
     },
-
+    containerStaff: {
+      flex: 1,
+      backgroundColor: '#e0f7fa',
+    },
+    toggleContainer: {
+      flexDirection: 'row',
+      justifyContent: 'center',
+      alignItems: 'center',
+      marginVertical: 10,
+    },
+    toggleText: {
+      fontSize: 16,
+      marginHorizontal: 10,
+    },
+    scrollContainer: {
+      paddingHorizontal: 10,
+    },
+    cardStaff: {
+      backgroundColor: '#fff',
+      borderRadius: 10,
+      marginBottom: 20,
+      overflow: 'hidden',
+      shadowColor: '#000',
+      shadowOffset: { width: 0, height: 2 },
+      shadowOpacity: 0.8,
+      shadowRadius: 2,
+      elevation: 5,
+    },
+    imageStaff: {
+      width: '100%',
+      height: 200,
+    },
+    textContainer: {
+      backgroundColor: '#0f6189',
+      padding: 10,
+    },
+    nameStaff: {
+      fontSize: 18,
+      fontWeight: 'bold',
+      color: '#fff',
+    },
+    descriptionStaff: {
+      fontSize: 14,
+      color: '#fff',
+      marginTop: 5,
+    },
+    readMoreStaff: {
+      color: '#00bfff',
+      fontWeight: 'bold',
+    },
   });
