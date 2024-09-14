@@ -8,7 +8,7 @@ import RegisterScreen from './src/screens/RegisterScreen';
 import HomeScreen from './src/screens/HomeScreen';
 import CustomDrawerContent from './src/components/CustomDrawerContent';
 import { styles } from './src/styles/styles';
-import SUSCRIPCION from './src/screens/SUSCRIPCION';
+import Suscripcion from './src/screens/Suscripcion';
 
 const Stack = createStackNavigator();
 const Drawer = createDrawerNavigator();
@@ -28,7 +28,7 @@ function AppDrawer({ setIsLoggedIn }) {
   return (
     <Drawer.Navigator drawerContent={props => <CustomDrawerContent {...props} setIsLoggedIn={setIsLoggedIn} />}>
       <Drawer.Screen name="Home" component={HomeScreen} />
-      <Drawer.Screen name="Suscripcion" component={SUSCRIPCION} />
+      <Drawer.Screen name="Suscripcion" component={Suscripcion} />
     </Drawer.Navigator>
   );
 }

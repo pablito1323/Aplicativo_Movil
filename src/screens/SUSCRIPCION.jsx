@@ -8,7 +8,7 @@ import {
   ScrollView
 } from "react-native";
 
-export default function SUSCRIPCION ({  }) {
+export default function Suscripcion ({  }) {
   const [name, setName] = useState("");
   const [dni, setDni] = useState("");
   const [familia, setFamilia] = useState("");
@@ -43,7 +43,7 @@ export default function SUSCRIPCION ({  }) {
           placeholder="JUAN MENDIVI LAZO"
           placeholderTextColor="#999"
         />
-        <Text style={styles.label}>familia</Text>
+        <Text style={styles.label}>Familia</Text>
         <TextInput
           style={styles.input}
           value={familia}
