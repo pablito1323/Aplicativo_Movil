@@ -44,6 +44,36 @@ export const styles = StyleSheet.create({
         height: '50%', // Alto del logo
         alignSelf: 'center',
          // Espacio entre el logo y los inputs
-    }
+    },containercard: {
+      paddingVertical: 0,
+      backgroundColor: '#e0f7fa',
+      justifyContent: 'center',
+      alignItems: 'center',
+    },
+    grid: {
+      flexDirection: 'row',
+      flexWrap: 'wrap',
+      justifyContent: 'center',
+    },
+    card: {
+      backgroundColor: '#0f6189',
+      borderRadius: 10,
+      margin: 5,
+      padding: 5,
+      width: '40%',
+      alignItems: 'center',
+    },
+    cardTitle: {
+      fontSize: 14,
+      color: '#fff',
+      textAlign: 'center',
+      marginBottom: '10%',
+      fontWeight: 'bold',
+    },
+    cardImage: {
+      width: '100%',
+      height: 100,
+      borderRadius: 10,
+    },
 
   });
