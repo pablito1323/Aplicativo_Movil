@@ -92,7 +92,7 @@ const styles = StyleSheet.create({
   },
   field: {
     marginBottom: 5,
-    width: "90%",
+    width: "100%",
   },
   rectangle: {
     
@@ -103,7 +103,7 @@ const styles = StyleSheet.create({
     borderColor: "#ddd",
     alignItems: "center",
     marginBottom:10,
-    marginTop:60
+    marginTop:-50
     
     
   },
@@ -121,22 +121,22 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "#ddd",
     padding: 10,
-    fontSize: 16,
+    fontSize: 15,
     borderRadius: 6,
     marginBottom: 15,
   },
 
   button: {
-    backgroundColor: "#1877f2",
-    borderRadius: 25,
-    paddingVertical: 15,
-    paddingHorizontal: 30,
-    marginBottom: 20,
+    backgroundColor: '#2196F3',
+    padding: 15,
+    alignItems: 'center',
+    margin: 15,
+    borderRadius: 5,
+     width: '100%'
   },
   buttonText: {
-    color: "white",
-    fontSize: 18,
-    fontWeight: "bold",
-    textAlign: "center",
+    color: 'white',
+    fontSize: 16,
+    fontWeight: 'bold',
   },
 });

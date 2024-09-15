@@ -170,11 +170,12 @@ export default function MediosDePago({  }) {
           placeholderTextColor="#999"
           keyboardType="email-address"
         />
+      </View>
 
-        <TouchableOpacity style={styles.button}>
+      <TouchableOpacity style={styles.button}>
           <Text style={styles.buttonText}>GUARDAR</Text>
         </TouchableOpacity>
-      </View>
+
     </ScrollView>
   );
 }
@@ -188,7 +189,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   title: {
-    marginTop: 20,
+    marginTop: -20,
     fontSize: 24,
     fontWeight: "bold",
   },
@@ -207,7 +208,7 @@ const styles = StyleSheet.create({
     color: "#333",
   },
   field: {
-    marginBottom: 20,
+    marginBottom: -5,
     width: "100%",
   },
   inputContainer: {
@@ -254,22 +255,16 @@ const styles = StyleSheet.create({
     width: "48%",
   },
   button: {
-    backgroundColor: "#1877f2",
-    borderColor: "white",
-    borderWidth: 2,
-    paddingVertical: 15,
-    paddingHorizontal: 45,
-    borderRadius: 25,
-    elevation: 3,
-    shadowColor: "#000",
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.2,
-    shadowRadius: 3,
-    alignItems: "center",
+    backgroundColor: '#2196F3',
+    padding: 15,
+    alignItems: 'center',
+    margin: 15,
+    borderRadius: 5,
+     width: '100%'
   },
   buttonText: {
-    color: "white",
-    fontSize: 18,
-    fontWeight: "bold",
+    color: 'white',
+    fontSize: 16,
+    fontWeight: 'bold',
   },
 });

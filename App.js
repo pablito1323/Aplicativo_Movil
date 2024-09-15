@@ -16,6 +16,7 @@ import Suscripcion from './src/screens/Suscripcion';
 import MediosDePago from './src/screens/MediosDePago';
 import Configuracion from './src/screens/Configuracion';
 
+
 const Stack = createStackNavigator();
 const Drawer = createDrawerNavigator();
 
@@ -26,6 +27,7 @@ function AuthStack({ setIsLoggedIn }) {
         {props => <LoginScreen {...props} setIsLoggedIn={setIsLoggedIn} />} 
       </Stack.Screen>
       <Stack.Screen name="Register" options={{ title: 'Registro de Usuario' }}  component={RegisterScreen} />
+      <Stack.Screen name="Configuracion" component={Configuracion} />
     </Stack.Navigator>
   );
 }
@@ -39,8 +41,8 @@ function AppDrawer({ setIsLoggedIn }) {
       <Drawer.Screen name="Staff" component={Staff} />
       <Drawer.Screen name="Testimonio" component={HomeScreen} />
       <Drawer.Screen name="Suscribete" component={Suscripcion} />
-      <Drawer.Screen name="MediosDePago" component={MediosDePago} />
-      <Drawer.Screen name="Configuracion" component={HomeScreen} />
+      <Drawer.Screen name="Medios De Pago" component={MediosDePago} />
+      <Drawer.Screen name="Configuracion" component={Configuracion} />
     </Drawer.Navigator>
   );
 }
