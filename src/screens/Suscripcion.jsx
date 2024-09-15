@@ -1,14 +1,9 @@
 import React, { useState } from "react";
-import {
-  View,
-  Text,
-  TouchableOpacity,
-  StyleSheet,
-  TextInput,
-  ScrollView
-} from "react-native";
+import {View,Text,TouchableOpacity,TextInput,ScrollView} from "react-native";
+import { styles } from '../styles/stylespagos';
 
 export default function Suscripcion ({  }) {
+
   const [name, setName] = useState("");
   const [dni, setDni] = useState("");
   const [familia, setFamilia] = useState("");
@@ -80,61 +75,4 @@ export default function Suscripcion ({  }) {
       </TouchableOpacity>
     </ScrollView>
   );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flexGrow: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    padding: 20,
-    backgroundColor: "white",
-  },
-  field: {
-    marginBottom: 5,
-    width: "100%",
-  },
-  rectangle: {
-    
-    backgroundColor: "#f0f0f0",
-    borderRadius: 15,
-    padding: 15,
-    borderWidth: 1,
-    borderColor: "#ddd",
-    alignItems: "center",
-    marginBottom:10,
-    marginTop:-50,
-  },
-  rectangleText: {
-    fontSize: 16,
-    color: "#333",
-    textAlign: "center",
-  },
-  label: {
-    fontSize: 16,
-    marginBottom: 8,
-    color: "#333",
-  },
-  input: {
-    borderWidth: 1,
-    borderColor: "#ddd",
-    padding: 10,
-    fontSize: 15,
-    borderRadius: 6,
-    marginBottom: 15,
-  },
-
-  button: {
-    backgroundColor: '#0f6189',
-    padding: 15,
-    alignItems: 'center',
-    margin: 15,
-    borderRadius: 5,
-     width: '100%'
-  },
-  buttonText: {
-    color: 'white',
-    fontSize: 16,
-    fontWeight: 'bold',
-  },
-});
+};
