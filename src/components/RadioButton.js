@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
     marginRight: 5,
   },
   selected: {
-    backgroundColor: '#1877f2',
+    backgroundColor: '#0f6189',
   },
   innerCircle: {
     width: 10,

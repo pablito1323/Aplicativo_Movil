@@ -103,9 +103,7 @@ const styles = StyleSheet.create({
     borderColor: "#ddd",
     alignItems: "center",
     marginBottom:10,
-    marginTop:-50
-    
-    
+    marginTop:-50,
   },
   rectangleText: {
     fontSize: 16,
@@ -127,7 +125,7 @@ const styles = StyleSheet.create({
   },
 
   button: {
-    backgroundColor: '#2196F3',
+    backgroundColor: '#0f6189',
     padding: 15,
     alignItems: 'center',
     margin: 15,

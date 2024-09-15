@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { View, Text, Switch, TextInput, TouchableOpacity, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { useTranslation } from 'react-i18next';
+
 
 const Configuracion = () => {
-  const { t } = useTranslation();
+
   const [darkMode, setDarkMode] = useState(false);
   const [notifications, setNotifications] = useState(false);
   const [fontSize, setFontSize] = useState('16');
@@ -114,7 +114,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   button: {
-    backgroundColor: '#2196F3',
+    backgroundColor: '#0f6189',
     padding: 15,
     alignItems: 'center',
     margin: 15,
